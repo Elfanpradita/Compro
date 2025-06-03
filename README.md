@@ -32,8 +32,14 @@ git clone https://github.com/Elfanpradita/Compro.git
 # 2. Masuk ke direktori proyek
 cd Compro
 
-# 3. Jalankan Docker Compose
+# 3. Masuk ke direktori proyek
+rm -rf .git
+
+# 4. Jalankan Docker Compose
 docker compose up -d
 
-# 4. Jalankan Browser (pastikan port 80 kosong, matikan seluruh container docker)
+# 5. Jalankan Browser (pastikan port 80 kosong, matikan seluruh container docker)
 localhost
+
+# 6. Upload ke GitHub lu bro wedeh
+gas ngoding ...
